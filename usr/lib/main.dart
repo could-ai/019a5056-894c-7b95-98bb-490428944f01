@@ -393,7 +393,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     border: OutlineInputBorder(),
                   ),
                   keyboardType: TextInputType.number,
-                ),n                const SizedBox(height: 16),
+                ),
+                const SizedBox(height: 16),
                 TextFormField(
                   controller: _budgetController,
                   decoration: const InputDecoration(
